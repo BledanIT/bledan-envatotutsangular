@@ -1,0 +1,5 @@
+[
+    {"id": 1, "name": "Guitar", "price": 1000, "img": "Guitar.jpg", "desc": "Rock your friends with this electric guitar!"},
+    {"id": 2, "name": "Piano", "price": 5000, "img": "Piano.jpg", "desc": "A finely crafted piano designed for large concerts."},
+    {"id": 3, "name": "Drums", "price": 1200, "img": "Drums.jpg", "desc": "Be the rhythm with this gig-ready drumkit!"}
+]

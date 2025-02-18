@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="card mt-4 mx-auto" style="width: 24rem;">
+        <img src='{{"assets/images/" + productJSON.img}}' alt="{{productJSON.name}}" class="card-img" style="height: fit-content; object-fit: cover">
+        <h3 class="my-4 ps-3">{{productJSON.name}}: <small>{{productJSON.price.toLocaleString(undefined, { minimumFractionDigits: 2 }) + " €"}}</small></h3>
+    </div>
+    <a routerLink="/products" class="btn btn-primary">Go Back</a>
+</div>

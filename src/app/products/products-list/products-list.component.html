@@ -1,0 +1,12 @@
+<div class="d-flex justify-content-center gap-4 mt-4">
+    <div *ngFor="let product of productsJSON">
+        <div class="card" style="width: 18rem;">
+            <img src='{{"assets/images/" + product.img}}' style="width: 100%; height: 18rem; object-fit: cover;" class="card-img-top" alt={{product.name}}>
+            <div class="card-body">
+                <h5 class="card-title">{{product.name}}</h5>
+                <p class="card-text">{{product.desc}}</p>
+                <a [routerLink]="['/products', product.id]" class="btn btn-primary">Details</a>
+            </div>
+        </div>
+    </div>
+</div>

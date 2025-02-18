@@ -1,0 +1,15 @@
+<div class="collapse" id="navbarToggleExternalContent" data-bs-theme="primary">
+    <div class="d-flex sticky-top justify-content-center align-items-center gap-4 flex-fill text-bg-primary py-2 btn-group-md">
+        <a routerLink="" routerLinkActive #rlahome="routerLinkActive" [ngClass]="rlahome.isActive ? activeClass : inactiveClass" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        <a routerLink="wish" routerLinkActive #rlawish="routerLinkActive" [ngClass]="rlawish.isActive ? activeClass : inactiveClass">Wishlist</a>
+        <a routerLink="contact" routerLinkActive #rlacontact="routerLinkActive" [ngClass]="rlacontact.isActive ? activeClass : inactiveClass">Contact Form</a>
+        <a routerLink="products" routerLinkActive #rlaproducts="routerLinkActive" [ngClass]="rlaproducts.isActive ? activeClass : inactiveClass">Products List</a>
+    </div>
+</div>
+<nav class="navbar navbar-light bg-primary sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
